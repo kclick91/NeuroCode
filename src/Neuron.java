@@ -21,9 +21,23 @@ public class Neuron {
 
     }
 
+    public void SetAxons(ArrayList<Axon> axs)
+    {
+        axonList = axs;
+    }
+
+    public void SetDendrites(ArrayList<Dendrite> dends)
+    {
+        dendList = dends;
+    }
 
 
     public void Fire()
+    {
+
+    }
+
+    public void Fire(Message m)
     {
 
     }

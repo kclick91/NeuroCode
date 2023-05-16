@@ -4,7 +4,7 @@ public class Neuron {
 
 
     //Cell Body
-    private CellBody cb;
+    private CellBody cellBody;
     //Axon
     private ArrayList<Axon> axonList;
     //Dendrite
@@ -31,6 +31,10 @@ public class Neuron {
         dendList = dends;
     }
 
+    public void SetCellBody(CellBody cb)
+    {
+        cellBody = cb;
+    }
 
     public void Fire()
     {

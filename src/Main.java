@@ -9,6 +9,8 @@ public class Main {
         CellBody cb = new CellBody();
         Nucleus nuc = new Nucleus();
         cb.SetNucleus(nuc);
+        neu.SetCellBody(cb);
+
 
         ArrayList<Axon> axonList = new ArrayList<>();
         Axon aOne = new Axon();
@@ -25,6 +27,15 @@ public class Main {
 
         //Cell Body processes message
         Message m = new Message();
+        //Or a neurotransmitter
+        Acetylcholine acet = new Acetylcholine();
+        Adrenaline adren = new Adrenaline();
+        Dopamine dopamine = new Dopamine();
+        GABA gaba = new GABA();
+        Glutamate glutamate = new Glutamate();
+        Oxytocin oxy = new Oxytocin();
+        Serotonin ser = new Serotonin();
+
 
 
     }

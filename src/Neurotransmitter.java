@@ -7,7 +7,7 @@ public class Neurotransmitter {
 
     public void SendQuality()
     {
-        
+
     }
 
 

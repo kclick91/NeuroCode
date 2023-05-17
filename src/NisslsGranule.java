@@ -2,7 +2,7 @@ import java.util.List;
 
 public class NisslsGranule extends Organelle {
 
-    EndoplasmicReticulum er;
+    RoughEndoplasmicReticulum rer;
 
     public NisslsGranule()
     {
@@ -11,8 +11,12 @@ public class NisslsGranule extends Organelle {
 
     public void SynthesizeProteins()
     {
-        
+
     }
 
+    public void TransportToCyton()
+    {
+
+    }
 
 }

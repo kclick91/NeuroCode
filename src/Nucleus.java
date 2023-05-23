@@ -1,4 +1,4 @@
-public class Nucleus {
+public class Nucleus extends Organelle {
 
     public Nucleus()
     {

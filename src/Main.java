@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -6,9 +7,11 @@ public class Main {
     {
         Neuron neu = new Neuron();
 
-        CellBody cb = new CellBody();
+        CellBody cb = new CellBody(new Nucleus(), new Mitochondria(), new ArrayList<Ribosome>(), new EndoplasmicReticulum(), new Golgiapparatus(), new Cytoplasm(), new Membrane() );
+
+
         Nucleus nuc = new Nucleus();
-        cb.SetNucleus(nuc);
+        //cb.SetNucleus(nuc);
         neu.SetCellBody(cb);
 
 
@@ -23,6 +26,11 @@ public class Main {
         Dendrite dTwo = new Dendrite();
         dendriteList.add(dOne);
         dendriteList.add(dTwo);
+
+        neu.SetAxons(axonList);
+        neu.SetDendrites(dendriteList);
+
+
 
 
         //Cell Body processes message

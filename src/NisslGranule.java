@@ -1,10 +1,10 @@
 import java.util.List;
 
-public class NisslsGranule extends Organelle {
+public class NisslGranule extends Organelle {
 
     RoughEndoplasmicReticulum rer;
 
-    public NisslsGranule()
+    public NisslGranule()
     {
 
     }

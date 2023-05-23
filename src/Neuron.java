@@ -18,7 +18,7 @@ public class Neuron {
 
     public Neuron()
     {
-
+        System.out.println("A new neuron has been created.");
     }
 
     public void SetAxons(ArrayList<Axon> axs)

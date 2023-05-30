@@ -11,6 +11,7 @@ public class CellBody {
         private Golgiapparatus golapp;
         private Cytoplasm cyto;
         private Membrane mem;
+        private List<AxonHillock> axonHillocks;
 
 
         public CellBody()
@@ -18,7 +19,7 @@ public class CellBody {
 
         }
 
-        public CellBody(Nucleus n, Mitochondria m, List<Ribosome> ribo, EndoplasmicReticulum er, Golgiapparatus ga, Cytoplasm c, Membrane me)
+        public CellBody(Nucleus n, Mitochondria m, List<Ribosome> ribo, EndoplasmicReticulum er, Golgiapparatus ga, Cytoplasm c, Membrane me, List<AxonHillock> axHills)
         {
             nucleus = n;
             mito = m;
@@ -27,6 +28,7 @@ public class CellBody {
             golapp = ga;
             cyto = c;
             mem = me;
+            axonHillocks = axHills;
             System.out.println("A new cell body has been created.");
         }
 

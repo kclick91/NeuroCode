@@ -7,7 +7,7 @@ public class Main {
     {
         Neuron neu = new Neuron();
 
-        CellBody cb = new CellBody(new Nucleus(), new Mitochondria(), new ArrayList<Ribosome>(), new EndoplasmicReticulum(), new Golgiapparatus(), new Cytoplasm(), new Membrane() );
+        CellBody cb = new CellBody(new Nucleus(), new Mitochondria(), new ArrayList<Ribosome>(), new EndoplasmicReticulum(), new Golgiapparatus(), new Cytoplasm(), new Membrane(), new ArrayList<AxonHillock>() );
 
 
         Nucleus nuc = new Nucleus();
